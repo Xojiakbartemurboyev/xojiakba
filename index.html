@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Styled Counter App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="input-section">
+    <input type="number" id="numberInput" placeholder="Enter your number" />
+    <button onclick="setNumber()">Send</button>
+  </div>
+
+  <div class="counter-box">
+    <button onclick="changeNumber(-1)">-</button>
+    <div id="displayNumber">0</div>
+    <button onclick="changeNumber(1)">+</button>
+  </div>
+
+  <div class="color-section">
+    <label for="colorPicker">Select color</label>
+    <input type="color" id="colorPicker" value="#ffffff" />
+  </div>
+
+  <div class="image-container">
+   
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
